@@ -61,9 +61,10 @@ react-springboot-keycloak-app
    docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:24.0.2 start
 
    ```
-   Bonus - MFA Setup
-   https://www.youtube.com/watch?v=p_kL4W0EseM
-2. To access the Keycloak server locally, open `http://localhost:8080` in your browser.
+   **MFA Setup**
+    Watch this video for a step-by-step guide: [Keycloak MFA Setup (YouTube)](https://www.youtube.com/watch?v=p_kL4W0EseM)
+   
+3. To access the Keycloak server locally, open `http://localhost:8080` in your browser.
    **Login Screen:**
    ![Keycloak Login Screen](screenshots/keycloak-login.png)
 
